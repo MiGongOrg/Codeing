@@ -1,0 +1,30 @@
+.CodeMirror-search-match, {
+  background: gold;
+  border-top: 1px solid orange;
+  border-bottom: 1px solid orange;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  opacity: .5;
+}
+.CodeMirror-dialog{
+  background-color: #272822;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-left: 30px;
+  opacity:1;
+  z-index: 3;
+}
+.CodeMirror-dialog input{
+    padding: 3px 5px;
+    color: #fff;
+    outline:none;
+    background-color: transparent;
+    border: none;
+}
+.CodeMirror-dialog button {
+  color: #272822;
+  font-size: 50%;
+  margin-top: 2px;
+}
